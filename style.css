@@ -176,6 +176,8 @@ main {display: flex; justify-content: center; align-items: center; flex-directio
 
 .flashcard.flipped .source-link {
     display: flex; /* Shows source */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flashcard.flipped .front {
